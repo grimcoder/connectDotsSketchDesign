@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    background-color: #958138;
+}
+
+div.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+div.playbutton {
+    position: absolute;
+    left: 22px;
+    top: 483px;
+    background: url("../images/playbutton.png");
+    width: 331px;
+    height: 56px;
+}
+
+div.editorbutton {
+    position: absolute;
+    left: 22px;
+    top: 559px;
+    background: url("../images/leveleditor.png");
+    width: 331px;
+    height: 56px;
+}
+
+div.backbutton {
+    position: absolute;
+    left: 20px;
+    top: 23px;
+    background: url("../images/backbutton.png");
+    width: 11px;
+    height: 20px;
+}
+
+div.levels {
+    position: absolute;
+    left: 52px;
+    top: 224px;
+    width: 272px;
+    height: 219px;
+}
+
+div.levels tr {
+    height: 80px;
+}
+
+div.levels td {
+    width: 70px;
+
+}
+
+div.levels div {
+    width: 52px;
+    height: 53px;
+
+}
+
+
+div.levels div p{
+
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+
+    /* 6: */
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 22px;
+
+}
+
+
+div.levels div.level {
+
+    background: url("../images/leveloval.png");
+
+}
+
+div.levels div.levellocked {
+
+    background: url("../images/levelovallocked.png");
+}
+div.levels div.levellocked p{
+
+
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+    color: #6B6B6B;
+    line-height: 22px;
+}
+
+div.score {
+
+    position: absolute;
+    left: 51px;
+    top: 78px;
+    width: 273px;
+    height: 48px;
+
+}
+
+
+div.score tr{
+
+    height: 24px;
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+
+
+div.score td{
+
+    width: 55px;
+    text-align: center;
+}
+
+div.dot{
+    width: 20px;
+    height: 20px;
+
+
+    margin: 0 auto;
+}
+
+div.red {background: url("../images/red.png");  }
+div.yellow {background: url("../images/yellow.png");  }
+div.blue {background: url("../images/blue.png");  }
+div.green {background: url("../images/green.png");  }
+div.orange {background: url("../images/orange.png");  }
+
+div.turns {
+    width: 100%;
+    position: absolute;
+    top: 620px;
+    text-align: center;
+
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+    color: #6B6B6B;
+    line-height: 22px;
+
+}
